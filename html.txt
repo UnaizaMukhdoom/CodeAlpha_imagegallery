@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    
+</head>
+<body>
+    <h1>MY IMAGE GALLERY</h1>
+    <div class="full-img" id="FullImgBox">
+        <img src="Images/image1.PNG" id="FullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="image-gallery">
+        <img src="https://images.pexels.com/photos/3910065/pexels-photo-3910065.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="openFullImg(this.src)">
+        <img src="https://images.pexels.com/photos/3640930/pexels-photo-3640930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="openFullImg(this.src)">
+        <img src="https://images.pexels.com/photos/9396336/pexels-photo-9396336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="openFullImg(this.src)">
+        <img src="https://images.pexels.com/photos/8273642/pexels-photo-8273642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" onclick="openFullImg(this.src)">
+        <img src="https://images.pexels.com/photos/3054155/pexels-photo-3054155.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="openFullImg(this.src)">
+        <img src="https://images.pexels.com/photos/9066471/pexels-photo-9066471.jpeg?auto=compress&cs=tinysrgb&w=400" onclick="openFullImg(this.src)">
+    </div>
+
+  
+</body>
+</html>
